@@ -1,0 +1,23 @@
+p {
+    color: red;
+}
+
+.color {
+    background-color: #00FF00;
+}
+
+.font {
+    font-size: 24px;
+}
+
+ul li {
+    font-weight: bold;
+}
+
+.item>span {
+    font-size: 18px;
+}
+
+.item>div>span {
+    font-style: italic;
+}
