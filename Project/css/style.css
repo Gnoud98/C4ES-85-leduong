@@ -1,0 +1,63 @@
+html,
+body {
+    padding: 20px;
+    margin: 10px;
+}
+
+.product {
+    width: 1000px;
+    margin: 10px auto;
+    padding: 10px;
+    display: flex;
+}
+
+.tab {
+    list-style: none;
+    background-color: #e67e22;
+    margin: 10px;
+    padding: 10px;
+    padding-top: 50px;
+    height: 350px;
+    width: 200px;
+    text-align: center;
+}
+
+.animation {
+    /* margin: 10px;
+    padding: 20px;
+    margin-top: 75px;
+    flex-wrap: wrap;
+    width: 33%; */
+}
+
+.product-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product-list li img {
+    width: 220px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.tab-item {
+    margin: 10px;
+    background: #34495e;
+    padding: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+}
+
+#iphone,
+#samsung,
+#xiaomi,
+#oppo {
+    display: none;
+}
